@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins,sans-serif;
+
+}
+
+
+/* -------------------NavBar--------------------- */
+
+nav{
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    z-index: 10px;
+}
+
+.nav-link{
+    color: rgb(200, 25, 98) !important;
+    /* color: rgb(16, 171, 233) !important; */
+   
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover{
+    
+    border-bottom: 1px solid rgb(16, 171, 233);
+    /* border-bottom:1px solid rgb(124, 11, 172); */
+}
+
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background:linear-gradient(to right, #3c3636, #1b1e1e);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+   
+/* ------------About---------------------- */
+ #about img{
+   box-shadow: 0 0 5px 5px rgb(0, 0, 0,0.1);
+ }
+
+  /* .education{
+   box-shadow: 0 0 5px 5px rgb(0, 0, 0,0.1);
+   border-radius: 10px;
+    position: relative;
+    right: px;
+    
+ } */
+
+ /* .course{
+   box-shadow: 0 0 5px 5px rgb(0, 0, 0,0.1);
+   border-radius: 10px;
+    position: relative;
+    left: px;
+ } */
+
+ /* ---------------Contact----------------- */
+ #contact a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact i {
+  margin-right: 8px;
+}
+
+footer {
+      background: #222;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
